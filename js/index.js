@@ -1,6 +1,6 @@
 // 全局变量
 const birthdayMap = {
-    2025: "2025-08-04",
+    2025: "2025-12-15",
 }
 const $btn = $("#birth-start-btn")
 const $main = $(".main")
