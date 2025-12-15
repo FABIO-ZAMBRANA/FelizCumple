@@ -1,6 +1,6 @@
 // 全局变量
 const birthdayMap = {
-    2025: "2025-12-12",
+    2025: "2025-12-16",
 }
 const $btn = $("#birth-start-btn")
 const $main = $(".main")
@@ -64,7 +64,7 @@ timeStrArr.push(`${seconds} segundos`)  // Añadir los segundos
 
 
 // Añadir el mensaje después de los segundos
-timeStrArr.push(`<span class="highlight"> para cumpleaños Lidia!</span>`)
+timeStrArr.push(`<span class="highlight"> para cumpleaños Delimar!</span>`)
 
 $btn.html(diffInSeconds <= 0 ? "El cumpleaños ya pasó" : timeStrArr.join(" "))
 
